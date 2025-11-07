@@ -1,4 +1,6 @@
 import React from "react";
+import aid from '../assets/aid.jpeg'; // adjust path based on file location
+
 
 const AboutPage = () => {
   return (
@@ -25,7 +27,7 @@ const AboutPage = () => {
           {/* Left: Image */}
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/src/assets/children.jpeg"
+              src={aid}
               alt="African children smiling after receiving aid"
               className="w-full h-full object-cover"
             />
