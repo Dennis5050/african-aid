@@ -25,7 +25,7 @@ const AboutPage = () => {
           {/* Left: Image */}
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/src/assets/❤️.jpeg"
+              src="/src/assets/children.jpeg"
               alt="African children smiling after receiving aid"
               className="w-full h-full object-cover"
             />
