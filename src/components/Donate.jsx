@@ -29,7 +29,7 @@ const DonateSection = () => {
 
   // Digital transfer details
   const paypalEmail = "julietkimutai1@gmail.com";
-  const binanceWallet = "793 220 057";
+  const binanceWalletId = "793 220 057";
 
   const handleTierClick = (amount) => {
     setSelectedAmount(amount);
@@ -148,7 +148,7 @@ const DonateSection = () => {
                 <p className="font-semibold text-gray-700">
                   Binance Pay / Wallet (BEP20)
                 </p>
-                <p className="text-red-600 break-all">{binanceWallet}</p>
+                <p className="text-red-600 break-all">{binanceWalletId}</p>
                 <p className="text-gray-500 text-xs mt-1">
                   Scan the QR code or copy the ID to send via Binance Pay
                 </p>
